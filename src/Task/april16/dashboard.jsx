@@ -25,27 +25,27 @@ export default function Dashboard() {
                 </button>
             </div>
 
-            <div className="user-profile p-4">
+            <div className="p-4">
                 <h4>{localStorage.getItem("username")}</h4>
                 <p>Role: User</p>
             </div>
 
-            <div className="stats flex justify-around p-4">
-                <div className="stat-item">
+            <div className="flex justify-around p-4">
+                <div>
                     <h5>Total Tasks</h5>
                     <p>45</p>
                 </div>
-                <div className="stat-item">
+                <div>
                     <h5>Completed Tasks</h5>
                     <p>30</p>
                 </div>
-                <div className="stat-item">
+                <div>
                     <h5>Pending Tasks</h5>
                     <p>15</p>
                 </div>
             </div>
 
-            <div className="activity-feed p-4">
+            <div className="p-4">
                 <h4>Recent Activities</h4>
                 <ul>
                     <li>Completed Task: "Design Dashboard"</li>
@@ -53,7 +53,7 @@ export default function Dashboard() {
                 </ul>
             </div>
 
-            <div className="upcoming-tasks p-4">
+            <div className="p-4">
                 <h4>Upcoming Tasks</h4>
                 <ul>
                     <li>Task 1: Complete User Dashboard - Due: 2025-04-20</li>
