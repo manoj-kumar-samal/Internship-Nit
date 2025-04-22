@@ -2,7 +2,7 @@
 
 export default function Footer(){
     return(
-        <div className="max-w-screen-2xl container mx-auto md:px-20 px-4 flex justify-between mt-20 text-sm mb-5">
+        <div className="hidden md:max-w-screen-2xl container mx-auto md:px-20 px-4 md:flex justify-between mt-20 text-sm mb-5">
             <div>
                 <img src="title.PNG" width="130px"></img>
                 <div className="mt-8 font-semibold">
@@ -26,10 +26,10 @@ export default function Footer(){
                 <div>Privacy policy</div>
                 <div className="my-2">Terms & conditions</div>
                 <div>Fraud alert</div>
-                <div mt-2>Trust & safety</div>
+                <div className="mt-2">Trust & safety</div>
             </div>
             <div>
-                <img src="playstore.PNG" width="300px"></img>
+                <img src="playstore.PNG" width="300px" className="border border-gray-400"></img>
             </div>
         </div>
     )

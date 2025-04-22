@@ -54,7 +54,7 @@ export default function Navbar() {
 
                     <div className="hidden md:navbar-end">
                         <button className="btn btn-outline btn-primary rounded-2xl me-3">Login</button>
-                        <button className="btn btn-secondary text-white rounded-2xl me-3">Register</button>
+                        <button className="btn btn-secondary bg-amber-700 text-white rounded-2xl me-3">Register</button>
                         <span className="hidden md:block">|</span>
                         <div className="hidden md:block dropdown dropdown-hover ms-3">
                             <div className="flex items-center cursor-pointer">
